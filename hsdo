@@ -18,11 +18,17 @@ iserrorMsg='n/a'
 # parameter Check #############################
 opts=$1
 scriptFile=$0
+echo $scriptFile - $scriptFile
 scriptHome=$(dirname $scriptFile)
+echo "--------------------------------------------------------------------------------"
+echo $scriptHome
+echo "--------------------------------------------------------------------------------"
+
+
 if [ ${#opts} -eq 0  ];then
     echo "usage :"
-    echo "     . hsDo.sh -aek:nowage -t sudo whoami"
-    echo "     . hsDo.sh pwd"
+    echo "     hsDo -aek:ubuntu -t sudo whoami"
+    echo "     hsDo pwd"
     echo " -- option ----"
     echo " optDest = a, m, n (All, Main, Node)"
     echo " optCmd  = e, c    (Execute, copy)"
