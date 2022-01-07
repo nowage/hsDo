@@ -1,7 +1,7 @@
 #!/bin/bash
 # usage :
-##     . hsDo.sh -aek:nowage -t sudo whoami
-##     . hsDo.sh pwd
+##     . hsdo.sh -aek:nowage -t sudo whoami
+##     . hsdo.sh pwd
 ## -- option ----
 ##
 ## optDest = a, m, n (All, Main, Node)
@@ -27,8 +27,8 @@ echo "--------------------------------------------------------------------------
 
 if [ ${#opts} -eq 0  ];then
     echo "usage :"
-    echo "     hsDo -aek:ubuntu -t sudo whoami"
-    echo "     hsDo pwd"
+    echo "     hsdo -aek:ubuntu -t sudo whoami"
+    echo "     hsdo pwd"
     echo " -- option ----"
     echo " optDest = a, m, n (All, Main, Node)"
     echo " optCmd  = e, c    (Execute, copy)"
