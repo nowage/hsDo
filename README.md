@@ -41,6 +41,7 @@ echo "export PATH=\$PATH:/usr/local/bin/hsDo" >> ~/.profile
 
 
 # toDo
+0. 꺼져 있는 호스트는 명령 전달 안되게 하기.
 1. sshpass ==> expect
 2. Destination : one hosts
 3. Command : setting
