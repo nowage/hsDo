@@ -1,3 +1,10 @@
+# for this Project
+_files/password
+_files/hostsMain
+_files/hostsAll
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,5 +1,5 @@
 # Info
-```
+```    
 #
 # Copyright (c) 2009-2016 NamJungGu <nowage@gmail.com>
 #
@@ -22,52 +22,26 @@
 # THE SOFTWARE.
 #
 # Description : It works to AllHost·MainHost·ClientHost with Copy·Command·Setting.
-#
-```
-## Maintain : https://github.com/nowage/finfra.git
-# Install & Setting
-## Install
-```
-git clone https://github.com/nowage/hsDo.git
-cd hsDo/_files
-cp password_org password
-cp hostsMain_org hostsMain
-cp hostsAll_org hostsAll
-```
-## Host Setting
-* _files/hostsAll
-* _files/hostsMain
-* _files/password (if needed)
-
+#           
 # Usage :
+#           
 ```
- usage1 : ./hsDo.sh ls
- usage2 : ./hsDo.sh -aek:root
- usage3 : copy
- usage : . ./hsDo.sh -ack /source-folder/filename [/root]
- example . ./hsDo.sh -ack /root/_prgs/\* /root/_prgs/
+# Components
 
+## Destination
+### All
+### Main
+### NotMain  
+### One
 
-## Destination    → 1.optDest
-### All           a
-### Main          m
-### NotMain       n : future
-### One           1 : future
+## Command
+### Copy
+### Execute
+### Setting
 
-## Command        → 2.optCmd
-### Execute       e
-### Copy          c
-### Setting       s
-
-## Authentication → 3.optAuth
-### Key           k
-### Password      p
-
-```
-
-
+## Authentication
+### Key
+### Password
 
 # toDo
 1. sshpass ==> expect
-2. Destination : one hosts
-3. Command : setting
